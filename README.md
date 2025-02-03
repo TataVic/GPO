@@ -1,4 +1,7 @@
-# Grupo de Política de Grupo (GPO) - Windows Server 2016
+# Objeto de Política de Grupo (GPO) - Windows Server 2016
+
+Implementação de GPO no Active Directory Domain Services (AD DS) do Windows Server. 
+
 
 ## 💻 Pré-requisitos
 
