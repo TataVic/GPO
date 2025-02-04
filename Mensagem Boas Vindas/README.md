@@ -1,7 +1,4 @@
-# Implementação de Mensagem de Boas Vindas! ☕
-
 ## 🥑 Aplicação de Script Logon (Boas Vindas) 
-
 
 ### Script ps1
 - Carrega bibliotecas necessárias para criar a interface gráfica (System.Windows.Forms, System.Drawing, PresentationFramework).
