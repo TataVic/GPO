@@ -18,16 +18,19 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <table>
   <tr>
     <td align="center">
-      <a href="[Jamon Ramirez](https://github.com/jamon22)" title="Jay">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" "/><br>
+      <a href="https://github.com/JamonRamirez" title="Jay">
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" /><br>
         <sub>
           <b>Jamon Ramirez</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="[Tata Vick](https://github.com/TataVic)" title="Tata" >  
+      <a href="https://github.com/TataVic" title="Tata">  
         <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;"/><br>
+        <sub>
+          <b>Tata Vick</b>
+        </sub>
       </a>
     </td>
   </tr>
