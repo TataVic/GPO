@@ -1,11 +1,23 @@
 # Implementação de Mensagem de Boas Vindas! ☕
 
+
+
 ## 🥑 Aplicação de Script Logon (Boas Vindas) 
 
 ### Script ps1
-```
-<comando_de_instalação>
-```
+- Carrega bibliotecas necessárias para criar a interface gráfica (System.Windows.Forms, System.Drawing, PresentationFramework).
+- Obtém a hora atual e determina uma saudação dinâmica (Bom dia, Boa tarde, Boa noite).
+- Cria um formulário fixo com título e ícone personalizado.
+- Adiciona um Label para exibir um aviso.
+- Exibe uma imagem  abaixo do texto.
+- Impede o redimensionamento da janela, removendo os botões de minimizar/maximizar.
+- Exibe a janela como um diálogo modal, forçando o usuário a visualizá-la antes de prosseguir.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/56c1e6a1-d676-4c73-91ea-cf1c19de5d23" width="500px;" />
+</p>
+
+
 ---
 #### Conversão ps1 -> exe (ps2exe) 
     🍄 {Execute como administrador o PowerShell }
