@@ -14,7 +14,7 @@
 - Exibe a janela como um diálogo modal, forçando o usuário a visualizá-la antes de prosseguir.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/56c1e6a1-d676-4c73-91ea-cf1c19de5d23" width="500px;" />
+  <img src="" width="500px;" />
 </p>
 
 
