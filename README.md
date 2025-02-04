@@ -14,30 +14,6 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
     - [PowerShell + WFP](https://learn.microsoft.com/pt-br/archive/msdn-magazine/2011/july/msdn-magazine-windows-powershell-with-wpf-secrets-to-building-a-wpf-application-in-windows-powershell);
     - [Doc PowerShell](https://learn.microsoft.com/pt-br/powershell/scripting/lang-spec/chapter-01?view=powershell-7.5);
 
-## 🚀 Aplicação de Script Logon (Boas Vindas) 
-
-Script ps1 :
-
-```
-<comando_de_instalação>
-```
-Conversão ps1 -> exe (ps2exe) :
-
-```
-<comando_de_instalação>
-```
-
-Windows Server :
-
-```
-<comando_de_instalação>
-```
-Windows 10/11 :
-
-```
-<comando_de_instalação>
-```
-
 ## 🤝 Colaboradores
 <table>
   <tr>
