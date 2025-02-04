@@ -8,7 +8,8 @@ Implementação de GPO no Active Directory Domain Services (AD DS) do Windows Se
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Você instalou a versão mais recente de `PowerShell`
-- Você tem uma máquina `Windows 10/11 - 64 bits`. 
+- Você tem uma máquina `Windows 10/11 - 64 bits`.
+- Servidor `Windows Server 2016 Standart` 
 - Referências:
     - [PowerShell + WFP](https://learn.microsoft.com/pt-br/archive/msdn-magazine/2011/july/msdn-magazine-windows-powershell-with-wpf-secrets-to-building-a-wpf-application-in-windows-powershell);
     - [Doc PowerShell](https://learn.microsoft.com/pt-br/powershell/scripting/lang-spec/chapter-01?view=powershell-7.5);
