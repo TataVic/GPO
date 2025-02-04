@@ -18,7 +18,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <table>
   <tr>
     <td align="center">
-      <a href="ttps://github.com/jamon22" title="Jay">
+      <a href="https://github.com/jamon22" title="Jay">
         <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" /><br>
         <sub>
           <b>Jamon Ramirez</b>
