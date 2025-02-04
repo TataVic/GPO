@@ -1,6 +1,4 @@
-## Objeto de Política de Grupo (GPO) - Windows Server 2016 📜
-
-Implementação de Mensagem de Boas Vindas! ☕
+# Implementação de Mensagem de Boas Vindas! ☕
 
 ## 🥑 Aplicação de Script Logon (Boas Vindas) 
 
