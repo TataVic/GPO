@@ -3,7 +3,6 @@
 
 
 ## 🥑 Aplicação de Script Logon (Boas Vindas) 
-
 ### Script ps1
 - Carrega bibliotecas necessárias para criar a interface gráfica (System.Windows.Forms, System.Drawing, PresentationFramework).
 - Obtém a hora atual e determina uma saudação dinâmica (Bom dia, Boa tarde, Boa noite).
