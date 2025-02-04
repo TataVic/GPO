@@ -47,6 +47,7 @@ e ver se foio aplicada para o devido cliente:
 ```
 gpresult -v || gpresult /v
 ```
+---
 
 ### GPO:
 - Vá em Gerenciamento de Política de Grupo;
