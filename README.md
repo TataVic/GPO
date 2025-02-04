@@ -54,7 +54,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 <table>
   <tr>
     <td align="center">
-      <a href="#" title="Jay">
+      <a href="[Jamon Ramirez](https://github.com/jamon22)" title="Jay">
         <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" "/><br>
         <sub>
           <b>Jamon Ramirez</b>
@@ -62,7 +62,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
       </a>
     </td>
     <td align="center">
-      <a href="#" title="Tata">
+      <a href="[Tata Vick](https://github.com/TataVic)" title="Tata">
         <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;"/><br>
         <sub>
           <b>Tata Vick</b>
