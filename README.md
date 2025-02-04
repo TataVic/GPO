@@ -13,7 +13,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Referências:
     - [PowerShell + WFP](https://learn.microsoft.com/pt-br/archive/msdn-magazine/2011/july/msdn-magazine-windows-powershell-with-wpf-secrets-to-building-a-wpf-application-in-windows-powershell);
     - [Doc PowerShell](https://learn.microsoft.com/pt-br/powershell/scripting/lang-spec/chapter-01?view=powershell-7.5);
-
+    - [Implementação de Política de Grupo - Microsoft](https://learn.microsoft.com/pt-br/training/modules/implement-group-policy-objects/);
 ## 🤝 Colaboradores
 <table>
   <tr>
