@@ -1,0 +1,58 @@
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
+Add-Type -AssemblyName PresentationFramework
+
+# Obter o horário atual
+$horaAtual = (Get-Date).Hour
+
+# Determinar a saudação com base no horário
+if ($horaAtual -ge 5 -and $horaAtual -lt 12) {
+    $saudacao = "Bom dia"
+} elseif ($horaAtual -ge 12 -and $horaAtual -lt 18) {
+    $saudacao = "Boa tarde"
+} else {
+    $saudacao = "Boa noite"
+}
+
+# Criar o formulário
+$form = New-Object System.Windows.Forms.Form
+$form.Text = "Aviso de Uso do Sistema"
+$form.Size = New-Object System.Drawing.Size(700, 450)  # Ajuste na altura para acomodar a imagem e o botão
+$form.StartPosition = "CenterScreen"
+
+
+# **Desativar Minimizar e Maximizar**
+$form.MinimizeBox = $false  # Remove o botão de minimizar
+$form.MaximizeBox = $false  # Remove o botão de maximizar
+$form.FormBorderStyle = "FixedDialog"  # Impede o redimensionamento
+
+# Definir o ícone da barra de tarefas
+$form.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon("C:\caminhodoicone")
+
+# Adicionar a mensagem com RichTextBox
+$messageBox = New-Object System.Windows.Forms.RichTextBox
+$messageBox.Size = New-Object System.Drawing.Size(550, 250)  # Ajuste para abrir espaço para a imagem
+$messageBox.Location = New-Object System.Drawing.Point(75, 20)
+$messageBox.Font = New-Object System.Drawing.Font("Arial", 10, [System.Drawing.FontStyle]::Regular)
+$messageBox.ReadOnly = $true
+$messageBox.BorderStyle = [System.Windows.Forms.BorderStyle]::None
+$messageBox.Text = "$saudacao, aos sistema XXXXXXXXXXX.
+
+TEXTO DE SUA ORGANIZAÇÃO"
+
+# Limpar a seleção
+$messageBox.SelectionStart = 0
+$messageBox.SelectionLength = 0
+$form.Controls.Add($messageBox)
+
+# Adicionar o ícone entre o texto e o botão
+$pictureBox = New-Object System.Windows.Forms.PictureBox
+$pictureBox.Image = [System.Drawing.Image]::FromFile("C:\caminhodoiconeaqui")
+$pictureBox.Size = New-Object System.Drawing.Size(100, 80)
+$pictureBox.SizeMode = [System.Windows.Forms.PictureBoxSizeMode]::StretchImage  # Ajustar tamanho da imagem
+$pictureBox.Location = New-Object System.Drawing.Point([int]($form.ClientSize.Width / 2 - $pictureBox.Width / 2), 280)
+$form.Controls.Add($pictureBox)
+
+
+# Exibir o formulário
+$form.ShowDialog()
