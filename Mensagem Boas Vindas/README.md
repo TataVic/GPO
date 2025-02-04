@@ -30,12 +30,14 @@ Conversão ps1 -> exe (ps2exe)
 
 
 Windows Server :
+Tenha o aqruivo ps1 em seu servidor e faça todo o processo de conversão em um caminho raiz de seu servidor. 
 
-```
-<comando_de_instalação>
-```
 Windows 10/11 :
-
+Para forçar a aplicação da GPO, certifique estar vinculada a um link corretamente na máquina e usuário cliente.
 ```
-<comando_de_instalação>
+gpupdate /force
+```
+e ver se foio aplicada para o devido cliente:
+```
+gpresult -v || gpresult /v
 ```
