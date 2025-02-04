@@ -36,7 +36,7 @@ Se tu optar por utilizar Windows Presentation Foundation (WPF)
 <exemplo_de_uso>
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
+
 
 ## 📫 Contribuição
 
@@ -51,4 +51,23 @@ Para contribuir com o projeto GPO, siga estas etapas:
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## 🤝 Colaboradores
-
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="Jay">
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" "/><br>
+        <sub>
+          <b>Jamon Ramirez</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="Tata">
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;"/><br>
+        <sub>
+          <b>Tata Vick</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
