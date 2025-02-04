@@ -7,7 +7,8 @@
 <comando_de_instalação>
 ```
 ---
-#### Conversão ps1 -> exe (ps2exe) {Execute como administrador o PowerShell }
+#### Conversão ps1 -> exe (ps2exe) 
+    {Execute como administrador o PowerShell }
 - Irá precisar instalar o ps2exe:
   ```
   Install-Module -Name ps2exe -Scope CurrentUser
