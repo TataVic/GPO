@@ -62,3 +62,7 @@ gpresult -v || gpresult /v
    Configuração do Computador → Preferências → Configurações do Windows → Registros
 ```
 - Crie um registro com Hive (HKEY_LOCAL_MACHINE || Chave (SOFTWARE\Microsoft\Windows\CurrentVersion\Run) || Tipo de valor (REG_SZ) || Dados de valor (Caminho da imagem)
+```
+   Configuração do Usuário → Políticas → Scripts (Logon/Logoff)
+```
+- Crie na aba de script e coloque o caminho raiz do servidor que possue do executável. 
