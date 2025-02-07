@@ -43,7 +43,7 @@ Para forçar a aplicação da GPO, certifique estar vinculada a um link corretam
 ```
 gpupdate /force
 ```
-e ver se foio aplicada para o devido cliente:
+e ver se foi aplicada para o devido cliente:
 ```
 gpresult -v || gpresult /v
 ```
@@ -57,9 +57,9 @@ gpresult -v || gpresult /v
 ```
 - Crie um arquivo com o caminho de origem e o caminho que irá receber;
 ```
-   Configuração do Computador → Preferências → Configurações do Windows → Registros
+   XXXXXXXXXXXX
 ```
-- Crie um registro com Hive (HKEY_LOCAL_MACHINE || Chave (SOFTWARE\Microsoft\Windows\CurrentVersion\Run) || Tipo de valor (REG_SZ) || Dados de valor (Caminho da imagem)
+- XXXXXXXXXXXXXXXXXXXXXXXXX
 ```
    Configuração do Usuário → Políticas → Scripts (Logon/Logoff)
 ```
